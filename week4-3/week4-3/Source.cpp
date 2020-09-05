@@ -22,7 +22,7 @@ int main()
 	cin >> i;
 	if (i == 3)
 	{
-		int x, y;
+		Double x, y;
 		cout << "input heigth = ";
 		cin >> x;
 		cout << "input Base = ";
@@ -31,7 +31,7 @@ int main()
 	}
 	else if (i == 4)
 	{
-		int x, y;
+		double x, y;
 		cout << "input length = ";
 		cin >> x;
 		cout << "input width = ";
