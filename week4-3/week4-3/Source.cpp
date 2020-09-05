@@ -1,23 +1,23 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
-int tri(double x, double y)
+double tri(double x, double y)
 {
-	int ans = 0.5 * x * y;
+	double ans = 0.5 * x * y;
 	cout << "Area = " << ans;
 	return ans;
 }
 
-int rec(double x, double y)
+double rec(double x, double y)
 {
-	int ans = x * y;
+	double ans = x * y;
 	cout << "Area = " << ans;
 	return ans;
 }
 
 int main()
 {
-	int i;
+	double i;
 	cout << "Tri or Rec?? = ";
 	cin >> i;
 	if (i == 3)
